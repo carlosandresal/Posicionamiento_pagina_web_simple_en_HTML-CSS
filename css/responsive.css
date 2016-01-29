@@ -1,0 +1,130 @@
+/*screen 220px*/
+
+@media screen and (min-width: 220px) {
+
+    /*header*/
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header ul {
+        text-align: center;
+    }
+
+    /*Main*/
+
+    button {
+        width: 100%;
+    }
+
+    /*Section - Aside */
+
+    .section-aside-1,
+    .section-aside-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .section-aside-1 section,
+    .section-aside-1 aside,
+    .section-aside-2 section,
+    .section-aside-2 aside {
+        width: 100%;
+    }
+
+    /*Footer*/
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .6em;
+    }
+}
+
+/*screen 480px*/
+@media screen and (min-width: 480px) {
+
+    /*Header*/
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header ul li {
+        margin: 0 5px;
+    }
+
+    /*Main*/
+
+    button {
+        width: 250px;
+    }
+
+    /*section Aside*/
+
+    .section-aside-1,
+    .section-aside-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-aside-1 section,
+    .section-aside-1 aside {
+        width: 100%;
+    }
+    .section-aside-2 section,
+    .section-aside-2 aside {
+        width: 100%;
+    }
+    footer {
+        font-size: 80%;
+    }
+}
+
+/*screen 778px*/
+
+@media screen and (min-width: 778px) {
+    /*header*/
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    header ul {
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    header ul li {
+        margin: 0 2%;
+    }
+    /*section- aside */
+    .section-aside-1,
+    .section-aside-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .section-aside-1 section,
+    .section-aside-2 section {
+        width: 50%;
+    }
+    .section-aside-1 aside,
+    .section-aside-2 aside {
+        width: 40%;
+    }
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+    }
+}
