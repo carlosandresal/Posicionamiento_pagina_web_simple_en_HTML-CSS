@@ -2,7 +2,7 @@
 
 ## :floppy_disk: Tema
 
-posicionamiento de página web simple en HTML y CSS.
+posicionamiento de página web simple en ´HTML y CSS´.
 
 ## :floppy_disk: Resumen
 
