@@ -1,0 +1,230 @@
+/*****************************
+GENERAL
+*****************************/
+
+body {
+    /*Fondo*/
+    background-image: url(../img/texture/fondo.png);
+    background-size: 100%;
+    /*font*/
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+form input,
+form textarea {
+    color: gray;
+    border: none;
+}
+
+/*****************************
+HEADER
+*****************************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+.navegacion {
+    width: 100%
+}
+header ul {
+    padding: 0;
+    margin: 0 auto;
+    text-align: right;
+}
+header ul li {
+    display: inline-block;
+    padding: 4px;
+    margin: 0 3%;
+    font-size: 15px;
+    transition: all .5s ease-in-out;
+}
+header ul li:last-child {
+    margin-right: 1%;
+}
+header ul li:hover {
+    color: rgb(102, 153, 153);
+    transform: scale(1.1);
+}
+
+/*****************************
+MAIN
+*****************************/
+
+.article-1 {
+    margin: 80px 0;
+}
+.article-1 p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+}
+button {
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(102, 153, 153, .8);
+    background-image: url(../img/texture/textura_boton.png);
+    /*font*/
+    font-size: 12px;
+    font-weight: 800;
+    color: bisque;
+    /*Efecto*/
+    transition: all .5s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 0 15px grey;
+    transform: scale(1.1);
+}
+
+/*****************************
+SECTION - ASIDE - 1
+*****************************/
+
+.section-aside-1,
+.section-aside-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.section-aside-1 section,
+.section-aside-2 section {
+    width: 50%;
+}
+.section-aside-1 aside,
+.section-aside-2 aside {
+    width: 40%;
+}
+.section-aside-1 img {
+    width: 100%;
+    border: 5px solid rgb(250, 240, 190);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 18px 0;
+    transition: all .4s ease-in-out;
+}
+.section-aside-1 img:hover {
+    transform: scale(1.1);
+}
+.item {
+    align-items: baseline;
+}
+
+/*****************************
+SECTION - ASIDE -2
+*****************************/
+
+.section-aside-2 .text {
+    cursor: help;
+}
+
+.section-aside-2 img {
+    width: 42px;
+    height: auto;
+    transition: all .4s ease-in-out;
+}
+.section-aside-2 img:hover {
+    transform: rotate(720deg) scale(1);
+    border-radius: 50%;
+    box-shadow: 0 0 15px grey;
+}
+
+/*****************************
+FOOTER
+*****************************/
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: 800;
+    border-top: 8px solid rgba(0, 0, 0, 0.46);
+}
+
+/*****************************
+COLOR
+*****************************/
+
+body,
+a,
+p,
+ul,
+li {
+    color: rgb(250, 240, 190);
+}
+h2 {
+    color: rgb(185, 189, 85);
+}
+.colorV {
+    color: rgb(94, 163, 140);
+}
+
+/*****************************
+PAGE: CONTACT
+*****************************/
+
+.formulario {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    background: rgba(36, 6, 4, 0.5);
+    border-radius: 15px;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+.b-form {
+    width: 100%;
+
+}
+.b-size{
+    width: 50%;
+    margin: 15px auto;
+    box-sizing: content-box;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.b-focus:focus {
+    outline: none;
+    background: white;
+    padding: 1%;
+    box-shadow: 0 0 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.send {
+    background: rgb(94, 163, 140);
+    color:  rgb(250, 240, 190);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+    transition: all .4s ease;
+}
+
+.send:hover{
+    box-shadow: 0 0 10px grey;
+}
+/*******************************************/
