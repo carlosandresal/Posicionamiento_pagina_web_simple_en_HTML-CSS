@@ -2,11 +2,11 @@
 
 ## :floppy_disk: Tema
 
-posicionamiento de página web simple en ´HTML y CSS´.
+posicionamiento de página web simple en `HTML y CSS`.
 
 ## :floppy_disk: Resumen
 
-este ejercicio consta de crear una página web simple usando ´HTML & CSS´y Posicionar todos los elemento. Para este caso tomamos como ejemplo una imagen ´PNG´de una tienda de alfajores .
+este ejercicio consta de crear una página web simple usando `HTML & CSS` y Posicionar todos los elemento. Para este caso tomamos como ejemplo una imagen `PNG` de una tienda de alfajores .
 
 ![Imagen de la pagina en PNG](https://raw.githubusercontent.com/studioArtbliss/Posicionamiento_pagina_web_simple_en_HTML-CSS/master/img/terminado.png)
 
